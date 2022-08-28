@@ -15,7 +15,7 @@ public class Landing extends VerticalLayout {
     public Landing() {
         setSpacing(false);
 
-        add(new H2("This place intentionally left empty"));
+        add(new H2("UberEats"));
         add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
 
         setSizeFull();
