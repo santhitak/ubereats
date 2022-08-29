@@ -1,6 +1,40 @@
 @import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    font-family: Lato, sans-serif;
+    font-family: Poppins, sans-serif;
+}
+
+.setBackgroundImage{
+    background-image: url("https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 12px 16px;
+}
+
+.btnLogin{
+    color: black;
+    background-color: white;
+}
+
+.btnSignup{
+    color: white;
+    background-color: black;
+}
+
+.text{
+    color: black;
+}
+
+.uber{
+    font-weight: 400;
+}
+
+.eats{
+    font-weight: 600;
 }
